@@ -1,54 +1,39 @@
 # linux-basics
 
 
-1. What is Linux?
+#1. What is Linux?
+-Linux is an open-source operating system that allows users to manage hardware and software resources efficiently.
 
-Linux is an open-source operating system that allows users to manage hardware and software resources efficiently.
+#2. What is a Kernel?
+-The kernel is the core component of an operating system that acts as a bridge between hardware and software.
 
-2. What is a Kernel?
+#3. Difference Between Linux and Windows
+-Linux is open-source and free to use, whereas Windows is a proprietary, paid, and closed-source operating system.
 
-The kernel is the core component of an operating system that acts as a bridge between hardware and software.
+#4. What is a Linux Distribution (Distro)?
+-A Linux distribution is a packaged version of Linux that includes the kernel, system utilities, and software applications. Examples include Ubuntu, CentOS, and Fedora.
 
-3. Difference Between Linux and Windows
+#5. What is a Shell?
+-A shell is a command-line interface that enables communication between the user and the operating system.
 
-Linux is open-source and free to use, whereas Windows is a proprietary, paid, and closed-source operating system.
+#6. What is CLI?
+-CLI (Command Line Interface) is a text-based interface used to interact with the operating system through commands.
 
-4. What is a Linux Distribution (Distro)?
-
-A Linux distribution is a packaged version of Linux that includes the kernel, system utilities, and software applications. Examples include Ubuntu, CentOS, and Fedora.
-
-5. What is a Shell?
-
-A shell is a command-line interface that enables communication between the user and the operating system.
-
-6. What is CLI?
-
-CLI (Command Line Interface) is a text-based interface used to interact with the operating system through commands.
-
-7. pwd Command
-Definition
-
-Displays the absolute path of the current working directory.
+#7. pwd Command
+-Displays the absolute path of the current working directory.
 
 pwd
 8. ls Command
-Definition
+-Lists files and directories present in the current location.
 
-Lists files and directories present in the current location.
-
-ls
 9. cd Command
-Definition
-
-Changes the current working directory.
-
+-Changes the current working directory.
 cd directory_name
-10. mkdir Command
-Definition
 
-Creates a new directory.
-
+11. mkdir Command
+-Creates a new directory.
 mkdir new_folder
+
 11. rmdir Command
 Definition
 
