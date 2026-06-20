@@ -50,7 +50,7 @@ clear
 -Displays the username of the currently logged-in user.
 whoami
 
-# 15. date Command
+## 15. date Command
 -Shows the current system date and time.
 date
 
