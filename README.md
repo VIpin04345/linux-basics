@@ -1,69 +1,59 @@
 # linux-basics
 
 
-#1. What is Linux?
+# 1. What is Linux?
 -Linux is an open-source operating system that allows users to manage hardware and software resources efficiently.
 
-#2. What is a Kernel?
+# 2. What is a Kernel?
 -The kernel is the core component of an operating system that acts as a bridge between hardware and software.
 
-#3. Difference Between Linux and Windows
+# 3. Difference Between Linux and Windows
 -Linux is open-source and free to use, whereas Windows is a proprietary, paid, and closed-source operating system.
 
-#4. What is a Linux Distribution (Distro)?
+# 4. What is a Linux Distribution (Distro)?
 -A Linux distribution is a packaged version of Linux that includes the kernel, system utilities, and software applications. Examples include Ubuntu, CentOS, and Fedora.
 
-#5. What is a Shell?
+# 5. What is a Shell?
 -A shell is a command-line interface that enables communication between the user and the operating system.
 
-#6. What is CLI?
+# 6. What is CLI?
 -CLI (Command Line Interface) is a text-based interface used to interact with the operating system through commands.
 
-#7. pwd Command
+# 7. pwd Command
 -Displays the absolute path of the current working directory.
-
 pwd
-8. ls Command
+
+# 8. ls Command
 -Lists files and directories present in the current location.
 
-9. cd Command
+# 9. cd Command
 -Changes the current working directory.
 cd directory_name
 
-11. mkdir Command
+# 11. mkdir Command
 -Creates a new directory.
 mkdir new_folder
 
-11. rmdir Command
-Definition
-
-Removes an empty directory.
-
+# 11. rmdir Command
+-Removes an empty directory.
 rmdir folder_name
-12. touch Command
-Definition
 
+# 12. touch Command
 Creates a new empty file or updates the timestamp of an existing file.
-
 touch file.txt
-13. clear Command
-Definition
 
-Clears the terminal screen for a cleaner workspace.
-
+# 13. clear Command
+-Clears the terminal screen for a cleaner workspace.
 clear
-14. whoami Command
-Definition
 
-Displays the username of the currently logged-in user.
-
+# 14. whoami Command
+-Displays the username of the currently logged-in user.
 whoami
-15. date Command
-Definition
 
-Shows the current system date and time.
-
+# 15. date Command
+-Shows the current system date and time.
 date
+
 File & Directory Commands (16–30)
 16. cp Command
 Definition
