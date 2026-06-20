@@ -2,126 +2,126 @@
 
 
 # 1. What is Linux?
--Linux is an open-source operating system that allows users to manage hardware and software resources efficiently.
+- Linux is an open-source operating system that allows users to manage hardware and software resources efficiently.
 
 # 2. What is a Kernel?
--The kernel is the core component of an operating system that acts as a bridge between hardware and software.
+- The kernel is the core component of an operating system that acts as a bridge between hardware and software.
 
 # 3. Difference Between Linux and Windows
--Linux is open-source and free to use, whereas Windows is a proprietary, paid, and closed-source operating system.
+- Linux is open-source and free to use, whereas Windows is a proprietary, paid, and closed-source operating system.
 
 # 4. What is a Linux Distribution (Distro)?
--A Linux distribution is a packaged version of Linux that includes the kernel, system utilities, and software applications. Examples include Ubuntu, CentOS, and Fedora.
+- A Linux distribution is a packaged version of Linux that includes the kernel, system utilities, and software applications. Examples include Ubuntu, CentOS, and Fedora.
 
 # 5. What is a Shell?
--A shell is a command-line interface that enables communication between the user and the operating system.
+- A shell is a command-line interface that enables communication between the user and the operating system.
 
 # 6. What is CLI?
--CLI (Command Line Interface) is a text-based interface used to interact with the operating system through commands.
+- CLI (Command Line Interface) is a text-based interface used to interact with the operating system through commands.
 
 # 7. pwd Command
--Displays the absolute path of the current working directory.
+- Displays the absolute path of the current working directory.
 pwd
 
 # 8. ls Command
--Lists files and directories present in the current location.
+- Lists files and directories present in the current location.
 
 # 9. cd Command
--Changes the current working directory.
+- Changes the current working directory.
 cd directory_name
 
 # 11. mkdir Command
--Creates a new directory.
+- Creates a new directory.
 mkdir new_folder
 
 # 11. rmdir Command
--Removes an empty directory.
+- Removes an empty directory.
 rmdir folder_name
 
 # 12. touch Command
-Creates a new empty file or updates the timestamp of an existing file.
+- Creates a new empty file or updates the timestamp of an existing file.
 touch file.txt
 
 # 13. clear Command
--Clears the terminal screen for a cleaner workspace.
+- Clears the terminal screen for a cleaner workspace.
 clear
 
 # 14. whoami Command
--Displays the username of the currently logged-in user.
+- Displays the username of the currently logged-in user.
 whoami
 
 ## 15. date Command
--Shows the current system date and time.
+- Shows the current system date and time.
 date
 
 ## File & Directory Commands (16–30)
 
 # 16. cp Command
--Copies files or directories from one location to another.
+- Copies files or directories from one location to another.
 cp source destination
 
 # 17. mv Command
--Moves or renames files and directories.
+- Moves or renames files and directories.
 mv old_name new_name
 
 # 18. rm Command
--Deletes files from the system.
+- Deletes files from the system.
 rm file.txt
 
 # 19. rm -rf Command
--Forcefully removes files and directories recursively without confirmation.
+- Forcefully removes files and directories recursively without confirmation.
 rm -rf folder_name
 
 # 20. cat Command
--Displays the contents of a file.
+- Displays the contents of a file.
 
 
 ## File & Directory Commands (21–30)
 # 21. less and more Commands
--These commands allow users to view file contents page by page, making it easier to read large files.
+- These commands allow users to view file contents page by page, making it easier to read large files.
 less file.txt
 more file.txt
 
 # 22. head Command
--Displays the first few lines of a file. By default, it shows the first 10 lines.
+- Displays the first few lines of a file. By default, it shows the first 10 lines.
 head file.txt
 
 # 23. tail Command
--Displays the last few lines of a file. By default, it shows the last 10 lines.
+- Displays the last few lines of a file. By default, it shows the last 10 lines.
 tail file.txt
 
 # 24. wc Command
--Counts the number of lines, words, and characters in a file.
+- Counts the number of lines, words, and characters in a file.
 wc file.txt
 
 # 25. find Command
--Searches for files and directories within a specified location based on different criteria.
+- Searches for files and directories within a specified location based on different criteria.
 find /home -name file.txt
 
 # 26. locate Command
--Quickly searches for files using a pre-built database, making it faster than the find command.
+- Quickly searches for files using a pre-built database, making it faster than the find command.
 locate file.txt
 
 # 27. grep Command
--Searches for specific text patterns within files and displays matching results.
+- Searches for specific text patterns within files and displays matching results.
 grep "hello" file.txt
 
 # 28. diff Command
--Compares two files line by line and highlights the differences between them.
+- Compares two files line by line and highlights the differences between them.
 diff file1.txt file2.txt
 
 # 29. file Command
--Identifies and displays the type of a file.
+- Identifies and displays the type of a file.
 file document.pdf
 
 # 30. stat Command
--Displays detailed information about a file, including size, permissions, ownership, and timestamps.
+- Displays detailed information about a file, including size, permissions, ownership, and timestamps.
 stat file.txt
 
 ## Permissions & Ownership (31–40)
 
 # 31. What Are File Permissions?
--File permissions determine who can read, write, or execute a file or directory.
+- File permissions determine who can read, write, or execute a file or directory.
 
 # 32. ls -l Command
 Definition
