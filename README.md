@@ -54,108 +54,76 @@ whoami
 -Shows the current system date and time.
 date
 
-File & Directory Commands (16–30)
-16. cp Command
-Definition
+## File & Directory Commands (16–30)
 
-Copies files or directories from one location to another.
-
+# 16. cp Command
+-Copies files or directories from one location to another.
 cp source destination
-17. mv Command
-Definition
 
-Moves or renames files and directories.
-
+# 17. mv Command
+-Moves or renames files and directories.
 mv old_name new_name
-18. rm Command
-Definition
 
-Deletes files from the system.
-
+# 18. rm Command
+-Deletes files from the system.
 rm file.txt
-19. rm -rf Command
-Definition
 
-Forcefully removes files and directories recursively without confirmation.
-
+# 19. rm -rf Command
+-Forcefully removes files and directories recursively without confirmation.
 rm -rf folder_name
-20. cat Command
-Definition
 
-Displays the contents of a file.
-
+# 20. cat Command
+-Displays the contents of a file.
 
 
-
-File & Directory Commands (21–30)
-21. less and more Commands
-Definition
-
-These commands allow users to view file contents page by page, making it easier to read large files.
-
+## File & Directory Commands (21–30)
+# 21. less and more Commands
+-These commands allow users to view file contents page by page, making it easier to read large files.
 less file.txt
 more file.txt
-22. head Command
-Definition
 
-Displays the first few lines of a file. By default, it shows the first 10 lines.
-
+# 22. head Command
+-Displays the first few lines of a file. By default, it shows the first 10 lines.
 head file.txt
-23. tail Command
-Definition
 
-Displays the last few lines of a file. By default, it shows the last 10 lines.
-
+# 23. tail Command
+-Displays the last few lines of a file. By default, it shows the last 10 lines.
 tail file.txt
-24. wc Command
-Definition
 
-Counts the number of lines, words, and characters in a file.
-
+# 24. wc Command
+-Counts the number of lines, words, and characters in a file.
 wc file.txt
-25. find Command
-Definition
 
-Searches for files and directories within a specified location based on different criteria.
-
+# 25. find Command
+-Searches for files and directories within a specified location based on different criteria.
 find /home -name file.txt
-26. locate Command
-Definition
 
-Quickly searches for files using a pre-built database, making it faster than the find command.
-
+# 26. locate Command
+-Quickly searches for files using a pre-built database, making it faster than the find command.
 locate file.txt
-27. grep Command
-Definition
 
-Searches for specific text patterns within files and displays matching results.
-
+# 27. grep Command
+-Searches for specific text patterns within files and displays matching results.
 grep "hello" file.txt
-28. diff Command
-Definition
 
-Compares two files line by line and highlights the differences between them.
-
+# 28. diff Command
+-Compares two files line by line and highlights the differences between them.
 diff file1.txt file2.txt
-29. file Command
-Definition
 
-Identifies and displays the type of a file.
-
+# 29. file Command
+-Identifies and displays the type of a file.
 file document.pdf
-30. stat Command
-Definition
 
-Displays detailed information about a file, including size, permissions, ownership, and timestamps.
-
+# 30. stat Command
+-Displays detailed information about a file, including size, permissions, ownership, and timestamps.
 stat file.txt
-Permissions & Ownership (31–40)
-31. What Are File Permissions?
-Definition
 
-File permissions determine who can read, write, or execute a file or directory.
+## Permissions & Ownership (31–40)
 
-32. ls -l Command
+# 31. What Are File Permissions?
+-File permissions determine who can read, write, or execute a file or directory.
+
+# 32. ls -l Command
 Definition
 
 Displays detailed file information, including permissions, ownership, size, and modification date.
