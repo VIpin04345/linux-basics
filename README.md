@@ -124,182 +124,123 @@ stat file.txt
 - File permissions determine who can read, write, or execute a file or directory.
 
 # 32. ls -l Command
-Definition
-
-Displays detailed file information, including permissions, ownership, size, and modification date.
-
+- Displays detailed file information, including permissions, ownership, size, and modification date.
 ls -l
-33. chmod Command
-Definition
 
-Changes the permissions of a file or directory.
-
+# 33. chmod Command
+- Changes the permissions of a file or directory.
 chmod 755 file.sh
-34. chown Command
-Definition
 
-Changes the ownership of a file or directory.
-
+# 34. chown Command
+- Changes the ownership of a file or directory.
 chown user file.txt
-35. chgrp Command
-Definition
-
-Changes the group ownership of a file or directory.
-
+\
+# 5. chgrp Command
+- Changes the group ownership of a file or directory.
 chgrp developers file.txt
-36. What Does Permission 777 Mean?
-Definition
 
-Permission 777 grants read, write, and execute access to all users (owner, group, and others).
-
+# 36. What Does Permission 777 Mean?
+- Permission 777 grants read, write, and execute access to all users (owner, group, and others).
 chmod 777 file.txt
-37. What is umask?
-Definition
 
-umask defines the default permissions assigned to newly created files and directories.
-
+# 37. What is umask?
+- umask defines the default permissions assigned to newly created files and directories.
 umask
-38. Who is the Root User?
-Definition
 
-The root user is the superuser account with unrestricted access to all system resources and administrative functions.
+# 38. Who is the Root User?
+- The root user is the superuser account with unrestricted access to all system resources and administrative functions.
 
-39. sudo Command
-Definition
-
-Allows authorized users to execute commands with elevated administrative privileges.
-
+# 39. sudo Command
+- Allows authorized users to execute commands with elevated administrative privileges.
 sudo apt update
-40. What is the Sticky Bit?
-Definition
 
-The Sticky Bit is a special permission that restricts file deletion within a shared directory to the file owner, directory owner, or root user.
-
+# 40. What is the Sticky Bit?
+- The Sticky Bit is a special permission that restricts file deletion within a shared directory to the file owner, directory owner, or root user.
 chmod +t /shared_folder
 Process & System Commands (41–50)
-41. What is a Process?
-Definition
 
-A process is an instance of a program that is currently running in the system.
+# 41. What is a Process?
+- A process is an instance of a program that is currently running in the system.
 
-42. ps Command
-Definition
-
-Displays information about currently running processes.
-
+#42. ps Command
+- Displays information about currently running processes.
 ps
-43. top Command
-Definition
 
-Provides real-time monitoring of system processes, CPU usage, memory usage, and other system statistics.
-
+# 43. top Command
+- Provides real-time monitoring of system processes, CPU usage, memory usage, and other system statistics.
 top
-44. kill Command
-Definition
 
-Terminates a running process using its Process ID (PID).
-
+# 44. kill Command
+- Terminates a running process using its Process ID (PID).
 kill 1234
-45. df Command
-Definition
 
-Displays disk space usage and available storage on mounted file systems.
-
+# 45. df Command
+- Displays disk space usage and available storage on mounted file systems.
 df -h
-46. du Command
-Definition
 
-Shows the size of files and directories within a specified location.
-
+# 46. du Command
+- Shows the size of files and directories within a specified location.
 du -sh folder_name
-47. free Command
-Definition
 
-Displays information about system memory (RAM) usage and availability.
-
+# 47. free Command
+- Displays information about system memory (RAM) usage and availability.
 free -h
-48. ifconfig / ip a Command
-Definition
 
-Displays network interface configuration and IP address information.
-
+# 48. ifconfig / ip a Command
+- Displays network interface configuration and IP address information.
 ifconfig
 
 or
 
 ip a
-49. ping Command
-Definition
 
-Tests network connectivity between the local system and a remote host.
-
+# 49. ping Command
+- Tests network connectivity between the local system and a remote host.
 ping google.com
-50. shutdown Command
-Definition
 
-Safely shuts down or powers off the system.
+# 50. shutdown Command
+- Safely shuts down or powers off the system.
 
+## Additional Linux Commands (Bonus)
 
-Additional Linux Commands (Bonus)
-51. history Command
-Definition
-
-Displays a list of previously executed commands in the terminal.
-
+# 51. history Command
+- Displays a list of previously executed commands in the terminal.
 history
-52. man Command
-Definition
 
-Displays the manual page and detailed documentation of a command.
-
+# 52. man Command
+- Displays the manual page and detailed documentation of a command.
 man ls
-53. echo Command
-Definition
 
-Prints text or variable values to the terminal.
-
+# 53. echo Command
+- Prints text or variable values to the terminal.
 echo "Hello World"
-54. uname Command
-Definition
 
-Displays system and kernel information.
-
+# 54. uname Command
+- Displays system and kernel information.
 uname -a
-55. hostname Command
-Definition
 
-Displays or sets the system hostname.
-
+# 55. hostname Command
+- Displays or sets the system hostname.
 hostname
-56. which Command
-Definition
 
-Shows the location of an executable command.
-
+# 56. which Command
+- Shows the location of an executable command.
 which python
-57. zip and unzip Commands
-Definition
 
-Compresses and extracts ZIP archives.
-
+# 57. zip and unzip Commands
+- Compresses and extracts ZIP archives.
 zip files.zip file.txt
 unzip files.zip
-58. tar Command
-Definition
 
-Creates and extracts archive files.
-
+# 58. tar Command
+- Creates and extracts archive files.
 tar -cvf backup.tar folder/
 tar -xvf backup.tar
-59. wget Command
-Definition
 
-Downloads files directly from the internet using a URL.
-
+# 59. wget Command
+- Downloads files directly from the internet using a URL.
 wget https://example.com/file.zip
-60. curl Command
-Definition
 
-Transfers data between a client and a server, commonly used for APIs.
-
+# 60. curl Command
+- Transfers data between a client and a server, commonly used for APIs.
 curl https://example.com
