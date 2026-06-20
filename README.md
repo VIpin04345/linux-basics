@@ -241,6 +241,6 @@ tar -xvf backup.tar
 - Downloads files directly from the internet using a URL.
 wget https://example.com/file.zip
 
-### 60. curl Command
+#### 60. curl Command
 - Transfers data between a client and a server, commonly used for APIs.
 curl https://example.com
